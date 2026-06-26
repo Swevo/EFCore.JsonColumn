@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/EFCore.JsonColumn/EFCore.JsonColumn.csproj" />
+  <Project Path="tests/EFCore.JsonColumn.Tests/EFCore.JsonColumn.Tests.csproj" />
+</Solution>
