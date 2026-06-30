@@ -1,6 +1,7 @@
 # Swevo.EFCore.JsonColumn
 
-[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.JsonColumn.svg)](https://www.nuget.org/packages/Swevo.EFCore.JsonColumn)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.JsonColumn
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.EFCore.JsonColumn.svg)](https://www.nuget.org/packages/Swevo.EFCore.JsonColumn).svg)](https://www.nuget.org/packages/Swevo.EFCore.JsonColumn)
 [![CI](https://github.com/Swevo/EFCore.JsonColumn/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/EFCore.JsonColumn/actions)
 
 Compile-time JSON column configuration for EF Core 8+. Stamp `[JsonColumn]` on owned navigation properties and the source generator emits `ConfigureJsonColumns(ModelBuilder)` so you do not have to hand-write repetitive `OwnsOne(..., b => b.ToJson())` boilerplate.
